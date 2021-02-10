@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="16" failed="0" total="16" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ConfigSmokeTestSuite" duration-ms="5264" started-at="2021-02-10T10:28:08Z" finished-at="2021-02-10T10:28:13Z">
+    <groups>
+    </groups>
+    <test name="ConfigSmokeTest" duration-ms="5264" started-at="2021-02-10T10:28:08Z" finished-at="2021-02-10T10:28:13Z">
+      <class name="macconfigforms.BankingConfig">
+        <test-method status="FAIL" signature="home()[pri:0, instance:macconfigforms.BankingConfig@6eda5c9]" name="home" is-config="true" duration-ms="0" started-at="2021-02-10T15:58:08Z" finished-at="2021-02-10T15:58:08Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'KCS-TECH-LAXMAN', ip: '192.168.2.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 59a186dfb08a548f865b344a0f38c0f2
+*** Element info: {Using=name, value=username}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'KCS-TECH-LAXMAN', ip: '192.168.2.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51625}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 59a186dfb08a548f865b344a0f38c0f2
+*** Element info: {Using=name, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at macconfigforms.BankingConfig.home(BankingConfig.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="SKIP" signature="memType()[pri:0, instance:macconfigforms.BankingConfig@6eda5c9]" name="memType" duration-ms="2" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- memType -->
+        <test-method status="SKIP" signature="share()[pri:1, instance:macconfigforms.BankingConfig@6eda5c9]" name="share" duration-ms="1" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- share -->
+        <test-method status="SKIP" signature="shareConfig()[pri:2, instance:macconfigforms.BankingConfig@6eda5c9]" name="shareConfig" duration-ms="1" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareConfig -->
+        <test-method status="SKIP" signature="saving()[pri:3, instance:macconfigforms.BankingConfig@6eda5c9]" name="saving" duration-ms="1" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saving -->
+        <test-method status="SKIP" signature="saConfig()[pri:4, instance:macconfigforms.BankingConfig@6eda5c9]" name="saConfig" duration-ms="2" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saConfig -->
+        <test-method status="SKIP" signature="saloanfacility()[pri:5, instance:macconfigforms.BankingConfig@6eda5c9]" name="saloanfacility" duration-ms="3" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saloanfacility -->
+        <test-method status="SKIP" signature="sadocuments()[pri:6, instance:macconfigforms.BankingConfig@6eda5c9]" name="sadocuments" duration-ms="2" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sadocuments -->
+        <test-method status="SKIP" signature="sareferences()[pri:7, instance:macconfigforms.BankingConfig@6eda5c9]" name="sareferences" duration-ms="2" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sareferences -->
+        <test-method status="SKIP" signature="fd()[pri:8, instance:macconfigforms.BankingConfig@6eda5c9]" name="fd" duration-ms="1" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fd -->
+        <test-method status="SKIP" signature="fdConfig()[pri:9, instance:macconfigforms.BankingConfig@6eda5c9]" name="fdConfig" duration-ms="1" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fdConfig -->
+        <test-method status="SKIP" signature="fdprematurity()[pri:10, instance:macconfigforms.BankingConfig@6eda5c9]" name="fdprematurity" duration-ms="1" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fdprematurity -->
+        <test-method status="SKIP" signature="fddocuments()[pri:11, instance:macconfigforms.BankingConfig@6eda5c9]" name="fddocuments" duration-ms="3" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fddocuments -->
+        <test-method status="SKIP" signature="rd()[pri:12, instance:macconfigforms.BankingConfig@6eda5c9]" name="rd" duration-ms="3" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rd -->
+        <test-method status="SKIP" signature="rdConfig()[pri:13, instance:macconfigforms.BankingConfig@6eda5c9]" name="rdConfig" duration-ms="2" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rdConfig -->
+        <test-method status="SKIP" signature="rdPrematurity()[pri:14, instance:macconfigforms.BankingConfig@6eda5c9]" name="rdPrematurity" duration-ms="4" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rdPrematurity -->
+        <test-method status="SKIP" signature="rdDocuments()[pri:15, instance:macconfigforms.BankingConfig@6eda5c9]" name="rdDocuments" duration-ms="1" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rdDocuments -->
+        <test-method status="SKIP" signature="window()[pri:0, instance:macconfigforms.BankingConfig@6eda5c9]" name="window" is-config="true" duration-ms="0" started-at="2021-02-10T15:58:13Z" finished-at="2021-02-10T15:58:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- window -->
+      </class> <!-- macconfigforms.BankingConfig -->
+    </test> <!-- ConfigSmokeTest -->
+  </suite> <!-- ConfigSmokeTestSuite -->
+</testng-results>

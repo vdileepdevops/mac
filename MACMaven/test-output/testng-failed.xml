@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ConfigSmokeTestSuite]">
+  <test name="ConfigSmokeTest(failed)">
+    <classes>
+      <class name="macconfigforms.BankingConfig">
+        <methods>
+          <include name="saloanfacility"/>
+          <include name="fd"/>
+          <include name="rdPrematurity"/>
+          <include name="saConfig"/>
+          <include name="sareferences"/>
+          <include name="fddocuments"/>
+          <include name="share"/>
+          <include name="rd"/>
+          <include name="rdDocuments"/>
+          <include name="saving"/>
+          <include name="rdConfig"/>
+          <include name="fdConfig"/>
+          <include name="memType"/>
+          <include name="sadocuments"/>
+          <include name="fdprematurity"/>
+          <include name="shareConfig"/>
+          <include name="home"/>
+        </methods>
+      </class> <!-- macconfigforms.BankingConfig -->
+    </classes>
+  </test> <!-- ConfigSmokeTest(failed) -->
+</suite> <!-- Failed suite [ConfigSmokeTestSuite] -->
